@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .blog-content > h1 {
+        @apply text-2xl font-extrabold mt-8 mb-2;
+    }
+}
