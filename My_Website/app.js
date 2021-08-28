@@ -9,7 +9,7 @@ const port = 6500
 const articleRouter = require('./routes/articles')
 
 
-mongoose.connect('mongodb+srv://ric897:post@cluster0.a9irr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', { useNewUrlParser: true , useUnifiedTopology: true, useCreateIndex: true})
+mongoose.connect('database', { useNewUrlParser: true , useUnifiedTopology: true, useCreateIndex: true})
 
 
 app.set('view engine', 'ejs')
